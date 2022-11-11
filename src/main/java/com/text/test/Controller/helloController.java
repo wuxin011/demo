@@ -38,4 +38,7 @@ public class helloController {
     public String inin(){
         return "inin";
     }
-}
+    public void test(){
+        System.out.println("hello");
+    }
+    }
