@@ -18,4 +18,12 @@ public class helloController {
     private String getjava(){
         return HOME;
     }
+    @GetMapping("hello")
+    public String gethello(){
+        return "hello";
+    }
+    @GetMapping("helloworld")
+    public String gethelloworld(){
+        return "helloworld";
+    }
 }
