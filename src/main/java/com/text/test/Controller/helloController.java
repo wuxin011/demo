@@ -26,4 +26,12 @@ public class helloController {
     public String gethelloworld(){
         return "helloworld";
     }
+    @GetMapping("/init")
+    public String init(){
+        return "init";
+    }
+    @GetMapping("/inin")
+    public String inin(){
+        return "inin";
+    }
 }
