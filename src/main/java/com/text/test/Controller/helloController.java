@@ -26,4 +26,8 @@ public class helloController {
     public String gethelloworld(){
         return "helloworld";
     }
+    @GetMapping("master")
+    public String master(){
+        return "master";
+    }
 }
