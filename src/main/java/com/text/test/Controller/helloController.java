@@ -40,5 +40,7 @@ public class helloController {
     }
     public void test(){
         System.out.println("hello");
+        System.out.println("world");
     }
+    
     }
