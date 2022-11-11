@@ -30,4 +30,12 @@ public class helloController {
     public String master(){
         return "master";
     }
+    @GetMapping("/init")
+    public String init(){
+        return "init";
+    }
+    @GetMapping("/inin")
+    public String inin(){
+        return "inin";
+    }
 }
